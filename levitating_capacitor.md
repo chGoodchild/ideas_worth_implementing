@@ -1,0 +1,1 @@
+https://physics.stackexchange.com/questions/201987/levitating-capacitor

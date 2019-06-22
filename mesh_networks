@@ -1,0 +1,25 @@
+This idea isn't new, but it is worth mentioning:
+
+The channel capacity is given by C = B log_2 (1 + S/N), where S/N is the signal to noise ratio (SNR). 
+
+Source: https://www.gaussianwaves.com/2008/04/channel-capacity/
+
+One of the primary goals when improving communications hardware is to increase the signal to noise ratio. This becomes increasingly difficult and such efforts occur within the logarithm, thus resulting in a limited increase of cannel capacity. That's why it's critical to make better use of bandwidth.
+
+The available bandwidth can be used more effectively by:
+1. Increasing the quality factor of the communications hardware.
+2. Using orthogonal frequencies in order to mathematically differentiate between communication channels that have overlapping frequency bands (also known as OFDM).
+3. Spacial separation of communication channels in order to avoid interference and thus allow each channel to use multiple communication bands.
+
+
+Spacial separation is often achieved by using Multiple Inputs and Multiple Outputs (MIMO) in order to create virtual apperatures that direct signals like a directional antenna, thus reducing a signal's effect on other nearby communication channels. This technology can already be found in wifi routers (with multiple antennas), mobile phone towers and even in the hardware of 5G devices.
+
+
+When talking about (high density) mesh networks I would like to remind everyone about how it further increases the spacial separation of communication channels by allowing data to be sent accross multiple small hops rather than a single long haul transmissions. Radio waves follow the inverse square law, thus resulting in large (at best quadratic) power savings when making many small hops. This reduction in transmission power also results in a reduced physical space consumption of any given communication channel, thus allowing for more parallel communication channels that use the same frequency bands and a better use of the available bandwidth.
+
+Source: https://en.wikipedia.org/wiki/Inverse-square_law
+
+The idea:
+
+With the advent of IoT and the widespread adoption of smartphones and routers, we have a large unused potential of networking infrastructure. It would make senese to incentivize the use of smartphones and routers as communication nodes (possibly using a blockchain). Rather than having network failures due to a lack of bandwidth, places with a lot of smartphones would have an extremely high bandwidth due to their high node density and thus the short hop distance/low transmission power. 
+

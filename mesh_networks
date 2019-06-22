@@ -21,5 +21,7 @@ Source: https://en.wikipedia.org/wiki/Inverse-square_law
 
 The idea:
 
-With the advent of IoT and the widespread adoption of smartphones and routers, we have a large unused potential of networking infrastructure. It would make senese to incentivize the use of smartphones and routers as communication nodes (possibly using a blockchain). Rather than having network failures due to a lack of bandwidth, places with a lot of smartphones would have an extremely high bandwidth due to their high node density and thus the short hop distance/low transmission power. 
+With the advent of IoT and the widespread adoption of smartphones and routers, we have a large unused potential of networking infrastructure. It would make senese to incentivize the use of smartphones and routers as communication nodes (possibly using a blockchain). Rather than having network failures due to a lack of available bandwidth, places with a lot of smartphones would have an extremely high bandwidth availability due to their high node density and thus the short hop distance/low transmission power. 
 
+Summary:
+The advantages of a decentralized approach are that it has the potential to save energy and drastically increase throughput with existing hardware, while ensuring that the networking infrastructure is always where the demand is (because the consumer is also the supplier).

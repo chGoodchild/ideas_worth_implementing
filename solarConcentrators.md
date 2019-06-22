@@ -1,3 +1,4 @@
+
 Find a new cost/efficiency optimum in solar concentrators by
 drastically reducing their material cost.
 
@@ -16,3 +17,6 @@ Possible approaches to reduce cost include:
 * The use of (painted) acrylic sheets as mirrors rather than glass.
 
 * The use of thin metal (aluminium) sheets/foil rather than mirrors.
+
+Keyword: "tent" like solar concentrators...
+

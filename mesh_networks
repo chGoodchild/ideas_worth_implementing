@@ -8,7 +8,7 @@ Source: https://www.gaussianwaves.com/2008/04/channel-capacity/
 One of the primary goals when improving communications hardware is to
 increase the signal to noise ratio. This becomes increasingly
 difficult and such efforts occur within the logarithm, thus resulting
-in a limited increase of cannel capacity. That's why it's critical to
+in a very limited increase of cannel capacity. That's why it's critical to
 make better use of bandwidth.
 
 The available bandwidth can be used more effectively by:
@@ -31,12 +31,12 @@ phone towers and even in the hardware of 5G devices.
 
 
 When talking about (high density) mesh networks I would like to remind
-everyone about how it further increases the spacial separation of
+everyone about how they further increase the spacial separation of
 communication channels by allowing data to be sent accross multiple
 small hops rather than a single long haul transmissions. Radio waves
 follow the inverse square law, thus resulting in large (at best
-quadratic) power savings when making many small hops. This reduction
-in transmission power also results in a reduced physical space
+quadratic) power savings when making many small hops rather than large hops. 
+This reduction in transmission power also results in a reduced physical space
 consumption of any given communication channel, thus allowing for more
 parallel communication channels that use the same frequency bands and
 a better use of the available bandwidth.
@@ -47,12 +47,18 @@ The idea:
 
 With the advent of IoT and the widespread adoption of smartphones and
 routers, we have a large unused potential of networking
-infrastructure. It would make senese to incentivize the use of
-smartphones and routers as communication nodes (possibly using a
-blockchain). Rather than having network failures due to a lack of
-available bandwidth, places with a lot of smartphones would have an
-extremely high bandwidth availability due to their high node density
-and thus the short hop distance/low transmission power.
+infrastructure. It would make senese to incentivize the use of existing hardware
+(smartphones and routers) as communication nodes, possibly using a
+blockchain (or distributed ledger/tangle). Rather than having network failures 
+due to a lack of available bandwidth, places with a high client(/node) density 
+would have an extremely high throughput thanks to their high node density which allows 
+for a lot of parallel channels that have a short hop distance/low transmission power.
+
+Existing (TCP/IP) infrastructure could be updated to incorporate a reward for 
+nodes/"miners" that contribute towards delivering packets on the network. A deflationary
+reward combined with tips could result in a race condition where nodes compete to
+provide the best networking service on various metrics. 
+
 
 Summary:
 The advantages of a decentralized approach are that it has the

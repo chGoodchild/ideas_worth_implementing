@@ -6,10 +6,9 @@ the signal to noise ratio (SNR) and B is the available bandwidth.
 Source: https://www.gaussianwaves.com/2008/04/channel-capacity/
 
 One of the primary goals when improving communications hardware is to
-increase the signal to noise ratio. This becomes increasingly
-difficult and such efforts occur within the logarithm, thus resulting
-in a very limited increase of cannel capacity. That's why it's critical to
-make better use of bandwidth.
+increase the signal to noise ratio. This results in a very limited increase in
+channel capacity because such efforts occur within the logarithm. That's why it's 
+critical to make good use of the available bandwidth.
 
 The available bandwidth can be used more effectively by:
 

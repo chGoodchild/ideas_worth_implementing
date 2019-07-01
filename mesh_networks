@@ -1,6 +1,6 @@
 This idea isn't new, but it is worth mentioning:
 
-The channel capacity is given by C = B log_2 (1 + S/N), where S/N is
+Channel capacity is given by C = B log_2 (1 + S/N), where S/N is
 the signal to noise ratio (SNR).
 
 Source: https://www.gaussianwaves.com/2008/04/channel-capacity/

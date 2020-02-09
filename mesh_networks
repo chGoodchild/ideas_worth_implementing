@@ -121,7 +121,10 @@ respective communication channel.
 This concept should also be compattible with OFDM communication -
 provided that the modules have sufficient processing power to separate
 the channels, decide what action to take and then compute an IFFT in
-order to transmit an appropriate signal in real time.
+order to transmit an appropriate signal in real time. This offcourse
+also implies that a module can simultaneously help shape the wave
+forms of multiple communication channels, even if channels propagate
+in different directions spacially.
 
 The high directionality thanks to the 3D spacial freedom that is
 propposed above, this concept kind of concept could also be of value

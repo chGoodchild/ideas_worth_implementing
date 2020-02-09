@@ -1,14 +1,15 @@
 This idea isn't new, but it is worth mentioning:
 
-Channel capacity is given by C = B log_2 (1 + S/N), where S/N is
-the signal to noise ratio (SNR) and B is the available bandwidth.
+Channel capacity is given by C = B log_2 (1 + S/N), where S/N is the
+signal to noise ratio (SNR) and B is the available bandwidth.
 
 Source: https://www.gaussianwaves.com/2008/04/channel-capacity/
 
 One of the primary goals when improving communications hardware is to
-increase the signal to noise ratio. This results in a very limited increase in
-channel capacity because such efforts occur within the logarithm. That's why it's 
-critical to make good use of the available bandwidth.
+increase the signal to noise ratio. This results in a very limited
+increase in channel capacity because such efforts occur within the
+logarithm. That's why it's critical to make good use of the available
+bandwidth.
 
 The available bandwidth can be used more effectively by:
 
@@ -34,11 +35,11 @@ everyone about how they further increase the spacial separation of
 communication channels by allowing data to be sent accross multiple
 small hops rather than a single long haul transmissions. Radio waves
 follow the inverse square law, thus resulting in large (at best
-quadratic) power savings when making many small hops rather than large hops. 
-This reduction in transmission power also results in a reduced physical space
-consumption of any given communication channel, thus allowing for more
-parallel communication channels that use the same frequency bands and
-a better use of the available bandwidth.
+quadratic) power savings when making many small hops rather than large
+hops.  This reduction in transmission power also results in a reduced
+physical space consumption of any given communication channel, thus
+allowing for more parallel communication channels that use the same
+frequency bands and a better use of the available bandwidth.
 
 Source: https://en.wikipedia.org/wiki/Inverse-square_law
 
@@ -46,17 +47,20 @@ The idea:
 
 With the advent of IoT and the widespread adoption of smartphones and
 routers, we have a large unused potential of networking
-infrastructure. It would make senese to incentivize the use of existing hardware
-(smartphones and routers) as communication nodes, possibly using a
-blockchain (or distributed ledger/tangle). Rather than having network failures 
-due to a lack of available bandwidth, places with a high client(/node) density 
-would have an extremely high throughput thanks to their high node density which allows 
-for a lot of parallel channels that have a short hop distance/low transmission power.
+infrastructure. It would make senese to incentivize the use of
+existing hardware (smartphones and routers) as communication nodes,
+possibly using a blockchain (or distributed ledger/tangle). Rather
+than having network failures due to a lack of available bandwidth,
+places with a high client(/node) density would have an extremely high
+throughput thanks to their high node density which allows for a lot of
+parallel channels that have a short hop distance/low transmission
+power.
 
-Existing (TCP/IP) infrastructure could be updated to incorporate a reward for 
-nodes/"miners" that contribute towards delivering packets on the network. A deflationary
-reward combined with tips could result in a race condition where nodes compete to
-provide the best networking service on various metrics. 
+Existing (TCP/IP) infrastructure could be updated to incorporate a
+reward for nodes/"miners" that contribute towards delivering packets
+on the network. A deflationary reward combined with tips could result
+in a race condition where nodes compete to provide the best networking
+service on various metrics.
 
 
 Summary:
@@ -65,3 +69,60 @@ potential to save energy and drastically increase throughput with
 existing hardware, while ensuring that the networking infrastructure
 is always where the demand is (because the consumer is also the
 supplier).
+
+EXTENSION: Three dimensional MIMO mesh for decentralized waveform
+control
+
+Essentially the advantage of mesh networks so far was that a single
+high power isotropic transmission is replaced by a chain of low power
+isotropic transmissions in order to promote directionality of
+information flow (it is offcourse possible that different carriers and
+modulation schemes are used at different stages in this chain of
+communication).
+
+Now I would like to add another aspect: decentralized wave form shaping
+
+MIMO is used to achieve directional waveforms. In the context of the
+aforementioned ''chain'' of mesh networking nodes, this would allow
+for larger distances between nodes and a more robust mesh network with
+less interference between nodes that are not directly in the path of
+communication.
+
+Such MIMO ''modules'' have some limitations though:
+
+* The directionality of the modules doesn't increase liniearly with
+  the number of antennas that it uses.
+* The spacial distance between a module's antennas is limited by it's
+  size or the size of it's package.
+
+These two problems could be addressed by splitting up the antennas
+from a single MIMO node accross multiple individual modules that are
+spacially distributed accross three dimensions and cooperate with
+eachother in order to produce an improved (more directional) waveform
+between the information source and it's destination.
+
+Using such modules to modify the waveform inbetween the information
+source and the destination of the information could eliminate the need
+for complex ''MIMO nodes'' that are capable of communicating with
+eachother. Instead it could be sufficient for modules inbetween the
+source and destination to contribute to the shaping of the waveform,
+thus improving directionality of the communication channel without
+actually ''handeling'' the data.
+
+The modules inbetween could again be reembursed for their services
+using a blockchain (or distributed ledger).
+
+Some local radio measurements and experimental trials between
+neighbouring modules would be required at regular intervals in order
+to quantify the productivity of a module's contribution towards the
+desired waveform and to reevaluate the module's activity on the
+respective communication channel.
+
+This concept should also be compattible with OFDM communication -
+provided that the modules have sufficient processing power to separate
+the channels, decide what action to take and then compute an IFFT in
+order to transmit an appropriate signal in real time.
+
+The high directionality thanks to the 3D spacial freedom that is
+propposed above, this concept kind of concept could also be of value
+in in wireless power transfer applications.

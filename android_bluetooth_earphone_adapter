@@ -1,0 +1,8 @@
+A simple app that allows smartphone users who have regular earphones to use
+their android as a bluetooth transciever, thus enabling them to use their 
+earphones as "bluetooth earphones".
+
+There might be some niche applications where smartphone users need bluetooth earphones 
+(maybe quickly) and don't have the time and/or money to get dedicated hardware. They could
+just connect the earphones to their phones, download the app and use their phone as a 
+bluetooth transciever...
